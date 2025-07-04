@@ -48,7 +48,7 @@ import rbseLogo from './assets/education_logo/rbse.png';
 import sjcLogo from './assets/education_logo/cbse.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
+import heyThereLogo from './assets/work_logo/heyThere.png';
 import weatherLogo from './assets/work_logo/weather.png';
 import tttLogo from './assets/work_logo/ttt.png';
 import fileShareLogo from './assets/work_logo/fileShare.png';
@@ -110,7 +110,7 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      // { name: 'Postman', logo: postmanLogo },
+      { name: 'Postman', logo: postmanLogo },
       // { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
@@ -209,6 +209,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "HeyThere Messenger",
+      description:
+        "A full-stack real-time chat application built for seamless one-on-one messaging. Featuring user authentication, dynamic user status, and instant message delivery using Socket.IO. The frontend is built with React and styled using Tailwind CSS, while the backend leverages Express and MongoDB to manage users, chats, and message data securely. Designed with responsiveness and scalability in mind, HeyThere provides a smooth messaging experience across devices.",
+      image: heyThereLogo,
+      tags: ["React JS", "Authentication", "Express.js","Socket.io","MongoDB","Render","Real-Time Messaging"],
+      github: "https://github.com/amannagar04/Hey-There-Chat-App",
+      webapp: "https://hey-there-chat-app.onrender.com/",
+    },
+    {
+      id: 1,
       title: "Weather Forecast Website",
       description:
         "A sleek and responsive React.js application built to deliver real-time and extended weather forecasts with precision. Users can search by city or use their current location to instantly access detailed weather data, including temperature, humidity, wind speed, and a 5-day forecast. Powered by the OpenWeatherMap API and styled with Tailwind CSS, the app offers a clean and modern user interface, enhanced with Axios for data fetching and React Toastify for smooth user notifications—making it an essential tool for weather insights on the go.",
@@ -218,7 +228,7 @@ export const SkillsInfo = [
       webapp: "https://amannagar04.github.io/Weather-App/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Tic-Tac-Toe Game",
       description:
         "A lightweight and interactive browser-based game designed to let users play classic Tic Tac Toe in a smooth and responsive interface. Built using HTML, CSS, and JavaScript, the game supports two-player mode, win/draw detection, sound control, and real-time UI updates—offering a quick and engaging experience for casual users.",
@@ -228,7 +238,7 @@ export const SkillsInfo = [
       webapp: "https://amannagar04.github.io/Tic-Tac-Toe-Game/",
     },
     {
-      id: 2,
+      id: 3,
       title: "File Sharing App",
       description:
         "A real-time local file sharing platform built with Express.js and Socket.IO, designed to enable fast, secure file transfers between PCs and mobile devices on the same Wi-Fi network. KundraShare offers drag-and-drop uploads, animated progress indicators, modern styling, and instant peer-to-peer communication—delivering a smooth and reliable offline file sharing experience without the need for internet or third-party services.",
